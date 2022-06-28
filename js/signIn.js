@@ -51,7 +51,7 @@ if(signIn) {
                 // 5 --- send his data to welcome Page
                     sessionStorage.setItem('user', JSON.stringify(listOfUsers[index]));
                 // 6 -- and lets go there   
-                    location.assign("/login/homePage.html")
+                    location.assign("./homePage.html")
                 }
             }
         }
