@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- //////////////////// -->
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Login</title>
+</head>
+<body>
+    
+
+    <section id="mainPage" class="vh-100">
+        <div class="layout"></div>
+
+        <div class="container-fluid position-fixed top-50 start-50 translate-middle rounded-3 w-50">
+            <div class="row">
+
+                <div class="col-md-6 position-relative p-3">
+
+                    <div id='hidePart'class="rounded-start h-100 w-100 bg-dark text-white position-absolute start-0 top-0 d-flex justify-content-center align-items-center">
+                        <h4 class=" text-center fw-bolder py-4">Smart Login System</h4>
+
+                    </div>
+
+
+                        <form action="" class="p-3">
+            
+            
+                            <input id="signUpUserName"  placeholder="Enter Ur Name" class="form-control rounded-pill  py-2 mb-3 "  type="text" >
+                            <input id="signUpUserEmail"  placeholder="Enter Ur Email" class="form-control rounded-pill  py-2 mb-3 "  type="email" >
+                            <input id="signUpUserPassword"  placeholder="Enter Ur Password" class="form-control rounded-pill  py-2 mb-3 "  type="password" >
+                            <input type="checkbox" name="showPassword" id="showPassword">
+                            <label for="showPassword" >show Password</label>
+                            <p id="messageElementSingUp" class="d-none"></p>  
+                            
+            
+            
+            
+                            <button  id="signUp" type="submit" class=" mt-3 btn-outline-primary p-2 rounded-pill border-0 px-3 d-block">Sign Up</button>
+                           
+                            <p class="p-3 mt-2 text-dark">You have an account?<span class=" text-danger ps-2 text-decoration-none" id="toSignInPart">Sign In</span></p>
+            
+                            
+                        </form>
+            
+
+
+                </div>
+
+
+                <div class="col-md-6 d-flex align-items-center">
+
+                    <form action="" class="p-3">
+        
+        
+                        <input id="userEmail"  placeholder="Enter Ur Email" class="form-control rounded-pill py-2 mb-3"  type="email" name="" id="">
+                        <input id="userPassword"  placeholder="Enter Ur Password" class="form-control rounded-pill py-2 mb-3"  type="password" name="" id="">
+        
+                        <p id="messageElement" class="d-none"></p>  
+                        
+        
+                        <button id="signIn" type="submit" class=" mt-3 btn-outline-primary  px-3 py-2 border-0 rounded-pill">Login</button>
+                  
+                        <p class="p-3 mt-2 text-dark">Don’t have an account? <span class=" text-danger ps-3  text-decoration-none" id="toSignUpPart">Sign Up</span></p>
+        
+                        
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    
+
+
+
+   
+    <script src="js/signUp.js"></script>
+    <script src="js/signIn.js"></script>
+</body>
+</html>

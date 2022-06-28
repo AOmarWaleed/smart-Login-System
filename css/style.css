@@ -1,0 +1,36 @@
+
+.min_background {
+    background-color: #24353f;
+}
+.second_color {
+    color: #16a0b6;
+}
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+
+
+.layout {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/photo-1542300058-849d3b08aa0f.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);   
+}
+
+.container-fluid {
+    background-color: rgba(255,255,255, 0.6); 
+}
+
+#toSignInPart,
+#toSignUpPart {
+    cursor: pointer;
+}
+
+#hidePart {
+    transition: .3s all;
+}
